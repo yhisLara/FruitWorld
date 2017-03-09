@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item
+     android:id="@+id/add_fruit"
+     android:title="Add Fruit"
+     android:orderInCategory="1"
+     android:icon="@android:drawable/ic_menu_add"
+     app:showAsAction="ifRoom">
+ </item>
+    <item android:id="@+id/list_view"
+        android:title="List"
+        android:orderInCategory="2"
+        android:visible="false"
+        android:icon="@android:drawable/btn_minus"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/grid_view"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/bottom_bar"
+        app:showAsAction="ifRoom"
+        android:title="Grid">
+    </item>
+</menu>
